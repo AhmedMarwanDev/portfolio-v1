@@ -133,6 +133,13 @@ label {
     color: var(--clr-text-muted);
 }
 
+label .highlight {
+    font: var(--font-body);
+    letter-spacing: var(--ls-body);
+    font-weight: 600;
+    color: hsl(from var(--clr-primary) h s 68%);
+}
+
 input, textarea {
     background-color: var(--clr-bg-lightest);
     color: var(--clr-text-main);
