@@ -4,9 +4,9 @@
 :root {
     /* background colors */
     --clr-bg-main: hsl(230, 65%, 5%);
-    --clr-bg-light: hsl(from var(--clr-bg-main) h s calc(l + 5));
-    --clr-bg-lighter: hsl(from var(--clr-bg-main) h s calc(l + 10));
-    --clr-bg-lightest: hsl(from var(--clr-bg-main) h s calc(l + 15));
+    --clr-bg-light: hsl(230, 65%, 10%);
+    --clr-bg-lighter: hsl(230, 65%, 15%);
+    --clr-bg-lightest: hsl(230, 65%, 20%);
     /* text colors */
     --clr-text-main: hsl(0, 0%, 100%);
     --clr-text-muted: hsl(0, 0%, 75%);
@@ -18,9 +18,9 @@
 
     /* components  colors */
     --clr-button: var(--clr-primary);
-    --clr-button-hover: hsl(from var(--clr-button) h s calc(l + 2));
-    --clr-button-press: hsl(from var(--clr-button) h s calc(l + 5));
-    --clr-input-focus: hsl(from var(--clr-bg-main) h s calc(l + 25));
+    --clr-button-hover: hsl(230, 100%, 62%);
+    --clr-button-press: hsl(230, 100%, 65%);
+    --clr-input-focus: hsl(230, 65%, 35%);
 
     /* spacing */
     --space-container-width: min(80rem, calc(100% - 2.5rem));
@@ -32,10 +32,9 @@
     --transition: 300ms ease;
 
     /* box shadow */
-    --glow: 0 10px 30px hsl(from var(--clr-primary) h s l / 0.3);
-    --glow-hover-button: 0 20px 50px hsl(from var(--clr-primary) h s l / 0.6); 
-    --glow-hover-card: 0 32px 30px -10px hsl(from var(--clr-primary) h s l / 0.275);
-    /* --glow-focus: 0 0 5px hsl(from var(--clr-primary) h s l / 1); */
+    --glow: 0 10px 30px hsla(230, 100%, 60%, 0.3);
+    --glow-hover-button: 0 20px 50px hsla(230, 100%, 60%, 0.6); 
+    --glow-hover-card: 0 32px 30px -10px hsla(230, 100%, 60%, 0.275);
 
     /* border radius */
     --br-button: 4px;
@@ -144,7 +143,7 @@ label .highlight {
     font: var(--font-body);
     letter-spacing: var(--ls-body);
     font-weight: 600;
-    color: hsl(from var(--clr-primary) h s 68%);
+    color:  hsl(230, 100%, 68%);
 }
 
 input, textarea {
