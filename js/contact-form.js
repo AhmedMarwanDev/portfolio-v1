@@ -5,7 +5,7 @@ contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
     
     const formData = new FormData(contactForm);
-    formData.append("access_key", "f59013d0-ed9c-4a39-9ef6-ed8d651bb63e");
+    formData.append("access_key", "183d78cf-eb74-41f0-b611-50615521a3fd");
 
     fetch("https://api.web3forms.com/submit", {
         method: "POST",
